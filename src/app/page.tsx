@@ -26,8 +26,8 @@ export default function Page() {
           title="MemePulse"
           description="Join the community for an exciting memecoin journey!"
           tagLabel="The future of fun and transparency"
-          primaryButtonText="Buy MemePulse"
-          secondaryButtonText="Learn More"
+          primaryButtonText="Buy MemePulse Now"
+          secondaryButtonText="How It Works"
         />
       </div>
       <div id="about" data-section="about">
