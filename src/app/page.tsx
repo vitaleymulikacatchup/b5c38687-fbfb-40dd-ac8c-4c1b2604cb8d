@@ -49,9 +49,9 @@ export default function Page() {
           title="MemePulse Tokenomics"
           description="Discover the key stats behind MemePulse."
           kpiItems={[
-            { value: '100M', description: 'Total Supply', longDescription: 'The total amount of MemePulse tokens that will ever exist.', icon: 'PieChart' },
-            { value: '50K', description: 'Active Holders', longDescription: 'Number of wallets holding MemePulse.', icon: 'Users' },
-            { value: '5%', description: 'Transaction Fee', longDescription: 'Fee for each transaction to support the ecosystem.', icon: 'DollarSign' }
+            { value: '100M', description: 'Total Supply', longDescription: 'The total amount of MemePulse tokens that will ever exist.', icon: PieChart },
+            { value: '50K', description: 'Active Holders', longDescription: 'Number of wallets holding MemePulse.', icon: Users },
+            { value: '5%', description: 'Transaction Fee', longDescription: 'Fee for each transaction to support the ecosystem.', icon: DollarSign }
           ]}
         />
       </div>
