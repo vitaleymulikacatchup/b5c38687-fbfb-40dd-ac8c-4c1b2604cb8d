@@ -5,6 +5,7 @@ import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { Globe, DollarSign, Users } from 'lucide-react';
 
 const theme: SiteTheme = { styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" };
 
@@ -49,7 +50,7 @@ export default function Page() {
           title="MemePulse Tokenomics"
           description="Discover the key stats behind MemePulse."
           kpiItems={[
-            { value: '100M', description: 'Total Supply', longDescription: 'The total amount of MemePulse tokens that will ever exist.', icon: PieChart },
+            { value: '100M', description: 'Total Supply', longDescription: 'The total amount of MemePulse tokens that will ever exist.', icon: Globe },
             { value: '50K', description: 'Active Holders', longDescription: 'Number of wallets holding MemePulse.', icon: Users },
             { value: '5%', description: 'Transaction Fee', longDescription: 'Fee for each transaction to support the ecosystem.', icon: DollarSign }
           ]}
